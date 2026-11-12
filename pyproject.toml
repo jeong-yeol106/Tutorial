@@ -1,0 +1,19 @@
+[project]
+name = "gradeplan"
+version = "0.1.0"
+description = "대학생 맞춤형 성적 관리 및 학점 예측 프로그램"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.30.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
